@@ -1,0 +1,20 @@
+train (t-m2fl9p2dreqgdq8b09wlfa6hd) {
+  utterance ("[g:ItemInfo] (당근)[v:ItemName]은 (얼마)[v:SearchKeyword:검색]야 (대전)[v:LocaName:대전]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080238263)
+}
+train (t-m9ogkoqvr8lsyznmeg8xmai56) {
+  utterance ("[g:ItemInfo] (제주)[v:LocaName:제주]도의 (물오징어)[v:ItemName] (얼마)[v:SearchKeyword:검색]야")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080076595)
+}
+train (t-mx3g0wnljpvacxh4agwwhi99i) {
+  utterance ("[g:ItemInfo] (대전)[v:LocaName:대전]의 (배추)[v:ItemName] (보여)[v:SearchKeyword:검색]줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080699906)
+}
+train (t-myom028b79qdz0s6u2z30wxmh) {
+  utterance ("[g:ItemInfo] (여기)[v:NearBy:주변]에서 (호박)[v:ItemName] (가격)[v:SearchKeyword:검색] 알려줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAck6Vfol5qb6pSYW4dAOkmYQx5AC6XCqZJDDkAgGSiRneKdWlucXpTCwMDAyMDEwA2kGIAsCYQAkBpUDAA==)
+  last-modified (1572079391998)
+}

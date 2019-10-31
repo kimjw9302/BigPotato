@@ -1,0 +1,5 @@
+train (t-uaydux127cl30n7rc46wqq0az) {
+  utterance ("[g:ItemInfo] (서울)[v:LocaName:서울]의 (감)[v:ItemName] (가격)[v:SearchKeyword:검색]이 궁금해")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572169127845)
+}

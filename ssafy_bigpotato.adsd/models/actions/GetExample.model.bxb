@@ -1,0 +1,10 @@
+action (GetExample) {
+  description (사용법 알려줘!)
+  collect{
+    input (exam) { //별명
+			type (Example)
+			min (Required) max (One)	
+		}
+  }
+  output (Example)
+}

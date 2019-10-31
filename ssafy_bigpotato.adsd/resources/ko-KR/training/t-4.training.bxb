@@ -1,0 +1,10 @@
+train (t-4e22y9344jilc792z4m5mnkiw) {
+  utterance ("[g:ItemInfo] (대전)[v:LocaName:대전]에 (배추)[v:ItemName]를 (가르쳐)[v:SearchKeyword:검색]줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572077612196)
+}
+train (t-4gloq2xjl57fmnukce4zx5ez0) {
+  utterance ("[g:ItemInfo] (감자)[v:ItemName] (가격)[v:SearchKeyword:검색] 얼마야 (서울)[v:LocaName:서울]에서?")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572183055624)
+}

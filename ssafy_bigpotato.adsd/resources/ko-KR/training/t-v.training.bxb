@@ -1,0 +1,5 @@
+train (t-vta78l8hyi4ts9hqatfg1nmvl) {
+  utterance ("[g:ItemInfo] (호박)[v:ItemName] (말해)[v:SearchKeyword:검색]줘 (대전)[v:LocaName:대전]의")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080334191)
+}

@@ -1,0 +1,5 @@
+train (t-xlgvw2gys4zq5z39e0pq2rpo0) {
+  utterance ("[g:ItemInfo] (감)[v:ItemName] (가격)[v:SearchKeyword:검색] 얼마야")
+  plan (Y2BhkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnkMOQck8tAck6Vfol5qbi0AqWwtQanJpYlJzhnVpZnl+UwsDMwMjABCQZgDQIQgCIDxYFAA==)
+  last-modified (1572171796347)
+}

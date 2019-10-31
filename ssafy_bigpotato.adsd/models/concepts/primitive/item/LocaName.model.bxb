@@ -1,0 +1,22 @@
+enum (LocaName) {
+  description (지역 정보)
+  symbol (서울)
+  symbol (부산)
+  symbol (대전)
+  symbol (강릉) //강원동부
+  symbol (춘천) //강원서부
+  symbol (대구)
+  symbol (인천)
+  symbol (광주)
+  symbol (울산)
+  symbol (세종)
+  symbol (수원)//ㄱㄱ남부
+  symbol (의정부)//ㄱㄱ북부
+  symbol (청주) //충북
+  symbol (전주) //전북
+  symbol (순천) //전남
+  symbol (포항) //경북,남부
+  symbol (안동) //경북 북부
+  symbol (창원) //경남
+  symbol (제주)
+}

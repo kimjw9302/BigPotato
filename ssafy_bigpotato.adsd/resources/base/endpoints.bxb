@@ -1,0 +1,31 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetItemByName) {
+      accepted-inputs (myLocation,itemName,searchKeyword)
+      local-endpoint (js/getItemInfo.js)
+    }
+
+     action-endpoint (GetItemByNameLocation) {
+      accepted-inputs (locaName,itemName,searchKeyword)
+      local-endpoint (js/getItemInfoByLocation.js)
+    }
+
+     action-endpoint (GetItemByNameNear) {
+      accepted-inputs (myLocation,nearBy,itemName,searchKeyword)
+      local-endpoint (js/getItemInfoByNear.js)
+    }
+    action-endpoint (GetItemNoLocation) {
+      accepted-inputs (locaName,itemName,searchKeyword)
+      local-endpoint (js/getItemNotLocation.js)
+    }
+action-endpoint (GetExample) {
+      accepted-inputs (exam)
+      local-endpoint (js/getExample.js)
+    }
+
+    // action-endpoint (GetItemByNameLocation) {
+    //   accepted-inputs (myLocation,itemName)
+    //   local-endpoint (js/getItemInfo.js)
+    // }
+}
+}

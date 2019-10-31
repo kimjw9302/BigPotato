@@ -1,0 +1,10 @@
+train (t-8a0q6mn71o5scxy26663bhjms) {
+  utterance ("[g:ItemInfo] (무)[v:ItemName]는 (수원)[v:LocaName:수원]에서 (얼마)[v:SearchKeyword:검색]야")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572078576833)
+}
+train (t-8le6su4rljp1phunmh7ne5ofm) {
+  utterance ("[g:ItemInfo] (부산)[v:LocaName:부산]에서 (감)[v:ItemName] (얼마)[v:SearchKeyword:검색]야?")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572170037636)
+}

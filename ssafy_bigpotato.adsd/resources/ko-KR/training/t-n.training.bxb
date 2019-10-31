@@ -1,0 +1,10 @@
+train (t-n13w1hhkqpuyi3d82rumd1zmv) {
+  utterance ("[g:ItemInfo] (감)[v:ItemName]은 (얼마)[v:SearchKeyword:검색]야 (서울)[v:LocaName:서울]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572169203238)
+}
+train (t-nkzoivownc0rajnor1i7mjegj) {
+  utterance ("[g:ItemInfo] (부산)[v:agriculture.adsd.LocaName:부산]의 (감자)[v:agriculture.adsd.ItemName] (가격)[v:agriculture.adsd.SearchKeyword:검색] 얼마야")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572183507876)
+}

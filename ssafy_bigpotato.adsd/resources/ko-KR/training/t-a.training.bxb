@@ -1,0 +1,15 @@
+train (t-a1qn3ozps9cpakid3wg4scx8m) {
+  utterance ("[g:ItemInfo] (청주)[v:LocaName:청주]에서 (당근)[v:ItemName] (가격)[v:SearchKeyword:검색]은")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080005797)
+}
+train (t-ad2ru5hk6okcokl98obw0pek5) {
+  utterance ("[g:ItemInfo] (바보)[v:NoLocation]에서 (닭고기)[v:ItemName] (알고)[v:SearchKeyword:검색] 싶어")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAcn65fvkJyeWZObn4dDul5ibyiCNIYWkTw5DMjg1sSg5wzu1sjy/KIWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572441049998)
+}
+train (t-ahc90t8aoxe3n779nkqllb48w) {
+  utterance ("[g:ItemInfo] (바보)[v:NoLocation]에서 (감자)[v:ItemName] (가격)[v:SearchKeyword:검색] 알려줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAcn65fvkJyeWZObn4dDul5ibyiCNIYWkTw5DMjg1sSg5wzu1sjy/KIWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572423656260)
+}

@@ -1,0 +1,5 @@
+train (t-oeo2fko6inkaak04559iprg53) {
+  utterance ("[g:ItemInfo] (감자)[v:agriculture.adsd.ItemName]의 (가격)[v:agriculture.adsd.SearchKeyword:검색]이 궁금해")
+  plan (Y2BhkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnkMOQck8tAck6Vfol5qbi0AqWwtQanJpYlJzhnVpZnl+UwsDMwMjABCQZgDQIQgCIDxYFAA==)
+  last-modified (1572183476153)
+}

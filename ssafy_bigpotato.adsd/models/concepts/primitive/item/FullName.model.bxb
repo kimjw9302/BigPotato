@@ -1,0 +1,3 @@
+text (FullName) {
+  description (이름과 종류를 합한 정보)
+}

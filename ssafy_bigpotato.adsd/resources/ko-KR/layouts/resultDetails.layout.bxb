@@ -1,0 +1,169 @@
+layout-macro-def  (resultDetails) {
+	params{
+		param (itemInfo){
+			type(ItemInfo)
+			min(Required)
+			
+		}
+	}
+	
+	content{
+		//헤더섹션
+		section{
+			content{
+				image-card{
+					text-position (Below)
+					image-background-color (White)
+					aspect-ratio(16:9)
+					image-url{
+						template("#{value(itemInfo.imageURL)}") //아이탬의 이미지 URL
+					}
+					title-area{
+						slot1{
+							single-line{
+								text {
+									style(Title_S)
+									value{
+										template ("#{value(itemInfo.itemName)} #{value(itemInfo.unit)}") //감자인지  if조건 걸어서 할수 있나?
+										
+									}
+								}
+								spacer
+								
+							}
+						}
+						slot2{
+							single-line{
+								
+								text{
+									style(Detail_M_Soft)
+									value("#{value(itemInfo.todate)} #{value(itemInfo.locaName)} 기준")
+									
+								}
+							}
+							paragraph{
+								
+								value{
+									template ("#{value(itemInfo.recentP)}")
+								}
+							}
+							
+						}
+				
+					}
+				}
+				cell-area{
+					slot2{
+						
+					}
+				}
+				// single-line{
+				// 	text{
+				// 		color (Blue)
+				// 		value{
+				// 					template ("#{value(itemInfo.recentP)}원")
+				// 				}
+				// 	}
+				// }
+				input-cell{
+					label{
+						template ("현재 가격")
+					}
+					value{
+						template ("#{value(itemInfo.recentP)}원")
+					}
+				}
+				split-input-cell{
+					
+					left{
+						input-cell{
+							label{
+								template ("최고 가격")
+							}
+							value{
+								template("#{value(itemInfo.maxP)}원")
+							}
+						}
+					}
+					right{
+						input-cell{
+							label{
+								template ("최저 가격")
+							}
+							value{
+								template ("#{value(itemInfo.minP)}원")
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						title-area{
+							halign (Center)
+							slot2{
+								paragraph{
+									value{
+										
+										template ("최근 30일 평균가는 #{value(itemInfo.medP)}원 이고,")
+									}
+								}
+							}
+							slot3{
+								paragraph{
+									value{
+										
+										template ("#{value(itemInfo.msg)}")
+										
+									}
+								}
+							}
+						}
+					}
+				}
+				single-line{
+					text {
+						style(Title_S)
+						value{
+							template ("10일 동안의 가격 변동") //감자인지  if조건 걸어서 할수 있나?
+							
+						}
+					}
+				}
+				image-card{
+					text-position (Below)
+					image-background-color (White)
+					aspect-ratio(16:9)
+					image-url{
+						template("#{value(itemInfo.chartURL)}") //아이탬의 이미지 URL
+					}
+					title-area{
+						slot1{
+							single-line{
+								text {
+									style(Title_S)
+									value{
+										template ("") 
+										
+									}
+								}
+								spacer
+								
+							}
+						}
+					}
+					
+				}
+				attribution-link {
+					label {
+						template ("농수산유통정보에서 더보기")
+					}
+					url ("https://www.kamis.or.kr/customer/price/retail/item.do?action=priceinfo&regday=#{value(itemInfo.todate)}&itemcategorycode=#{value(itemInfo.itemgroupcode)}&itemcode=#{value(itemInfo.itemCode)}&kindcode=#{value(itemInfo.kindCode)}&productrankcode=1&convert_kg_yn=Y")
+				}
+			}
+		}
+		
+		
+	}
+}
+
+//디자인 참조 URL: https://bixbydevelopers.com/dev/docs/dev-guide/design-guides/how-to-design.components-layouts-patterns

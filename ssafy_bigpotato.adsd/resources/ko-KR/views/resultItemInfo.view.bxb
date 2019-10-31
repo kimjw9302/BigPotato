@@ -1,0 +1,102 @@
+result-view{
+	match: ItemInfo(data)
+	message{
+		if(size(data) > 1){
+			template ("어떤 정보를 알려드릴까요?")
+		}else-if(size(data)==1){
+			template("최근 한 달간 #{value(data.itemName)}의 정보입니다.")
+		}else{
+			
+			template("최근 거래결과가 없습니다.")
+			
+			
+		}
+	}
+	render{
+		//item 정보가 1개 초과일때
+		if(size(data)>1){
+			list-of(data){
+				where-each (info){
+					thumbnail-card{
+						title-area{
+							halign (Start)
+							slot1{
+								text{
+									style(Title_M)
+									value("#{value(info.itemName)}")
+								}
+							}
+						}
+						image-url{
+							template ("#{value(info.imageURL)}")
+						}
+						image-position (End)
+					}
+				}
+				
+			}
+		}
+		else-if(size(data)==1){ //item정보가 1개 일경우
+			layout-macro (resultDetails){
+				param (itemInfo){
+					expression (data)
+				}
+			}
+		}else{
+			layout{
+				section{
+					content{
+						title-area{
+							halign (Start)
+							slot1{
+								single-line{
+									text{
+										value("정보가 없습니다.")
+										style(Title_S)
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+	
+	
+	conversation-drivers{
+		if(size(data) == 1){
+			conversation-driver{
+				template("서울에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("대전에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("부산에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("경기에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("광주에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("인천에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("울산에서 #{value(data.fullName)} 가격 알려줘")
+			}
+			conversation-driver{
+				template("세종에서 #{value(data.fullName)} 가격 알려줘")
+			}
+				conversation-driver{
+				template("제주에서 #{value(data.fullName)} 가격 알려줘")
+			}
+		}
+	}
+	
+	
+}
+

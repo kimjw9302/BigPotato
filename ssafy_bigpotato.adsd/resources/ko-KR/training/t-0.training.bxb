@@ -1,0 +1,10 @@
+train (t-0blsn6mxp4ec41olm42zcm0bx) {
+  utterance ("[g:ItemInfo] (서울)[v:LocaName:서울]의 (배추)[v:ItemName]를 (알려)[v:SearchKeyword:검색]줘\n")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572482908328)
+}
+train (t-0ckcyhhwi4z15ngtjl6chjqh4) {
+  utterance ("[g:ItemInfo] (주변)[v:NearBy:주변] (배추)[v:ItemName] (찾아)[v:SearchKeyword:검색]줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAck6Vfol5qb6pSYW4dAOkmYQx5AC6XCqZJDDkAgGSiRneKdWlucXpTCwMDAyMDEwA2kGIAsCYQAkBpUDAA==)
+  last-modified (1572482927905)
+}

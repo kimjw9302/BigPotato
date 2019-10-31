@@ -1,0 +1,20 @@
+train (t-b58gutncqdqb12kforjw0bctw) {
+  utterance ("[g:ItemInfo] (찾아)[v:SearchKeyword:검색]줘 (강릉)[v:LocaName:춘천] (감자)[v:ItemName]")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572441315320)
+}
+train (t-baq6gameefg6duee54p5psyjt) {
+  utterance ("[g:ItemInfo] (울산)[v:agriculture.adsd.LocaName:울산]에서 (닭고기)[v:agriculture.adsd.ItemName] (알고)[v:SearchKeyword:검색] 싶어")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572440959854)
+}
+train (t-bmd4be45dh63ubee7m0rmpfaf) {
+  utterance ("[g:ItemInfo] (부산)[v:LocaName:부산]에서 (호박)[v:ItemName]을 (말해)[v:SearchKeyword:검색]줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572077673226)
+}
+train (t-bo6cd1ic48sza9hvsj1lf5kv6) {
+  utterance ("[g:ItemInfo] (감자)[v:agriculture.adsd.ItemName] (알려)[v:SearchKeyword:검색]줘 (바보)[v:NoLocation]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAcn65fvkJyeWZObn4dDul5ibyiCNIYWkTw5DMjg1sSg5wzu1sjy/KIWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572424316770)
+}

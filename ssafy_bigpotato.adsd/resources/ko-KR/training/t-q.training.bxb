@@ -1,0 +1,15 @@
+train (t-qte8wa16cy5kgf2f9fietsux2) {
+  utterance ("[g:ItemInfo] (부산)[v:LocaName:부산]에서 (감자)[v:ItemName] (가격)[v:SearchKeyword:검색] 알려줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572183390243)
+}
+train (t-qxigpug40ih72pp9yktmi5ofo) {
+  utterance ("[g:Example] (사용법 띄워줘)[v:Example]")
+  plan (Y2BikEhML8pMLs0pKS1K1UtMKU7Rc61IzC3IScUjwwiEDAw8QMwExEA2AA==)
+  last-modified (1572437672333)
+}
+train (t-qz5kzj7htbjo6td99a7f2cykq) {
+  utterance ("[g:ItemInfo] (춘천)[v:LocaName:춘천]의 (배추)[v:ItemName]가 (궁금)[v:SearchKeyword:검색]해")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572078562652)
+}

@@ -1,0 +1,5 @@
+train (t-cc7ux9ieuph0eby2uxxsxaz4q) {
+  utterance ("[g:ItemInfo] (울산)[v:LocaName:울산]에서 (수박)[v:ItemName]의 (가격)[v:SearchKeyword:검색]은?")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572077840515)
+}

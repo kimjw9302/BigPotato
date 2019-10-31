@@ -1,0 +1,4 @@
+enum (NearBy) {
+  description (검색 키워드!)
+  symbol (주변)
+}

@@ -1,0 +1,10 @@
+train (t-fynwr7xmmphkxhnlu7a21s62n) {
+  utterance ("[g:ItemInfo] (안동)[v:LocaName:안동]의 (딸기)[v:ItemName] (가격)[v:SearchKeyword:검색]은 얼마야")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572441489683)
+}
+train (t-fytouhihhvcoqaqo7gbo89ft3) {
+  utterance ("[g:ItemInfo] (닭고기)[v:ItemName] (바보)[v:NoLocation]에서 (알고)[v:SearchKeyword:검색] 싶어")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAcn65fvkJyeWZObn4dDul5ibyiCNIYWkTw5DMjg1sSg5wzu1sjy/KIWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572441169445)
+}

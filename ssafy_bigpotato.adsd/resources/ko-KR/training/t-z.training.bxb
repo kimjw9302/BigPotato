@@ -1,0 +1,5 @@
+train (t-zgp9xq9siwx2z99agu3x1si0d) {
+  utterance ("[g:ItemInfo] (상추)[v:ItemName] (가격)[v:SearchKeyword:검색] 찾아줘 (대전)[v:LocaName:대전]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080587554)
+}

@@ -1,0 +1,5 @@
+train (t-3wjpwh66b61h6gihal6ng2qea) {
+  utterance ("[g:ItemInfo] (대전)[v:LocaName:대전]의 (무)[v:ItemName] (가격)[v:SearchKeyword:검색]은")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572078507750)
+}

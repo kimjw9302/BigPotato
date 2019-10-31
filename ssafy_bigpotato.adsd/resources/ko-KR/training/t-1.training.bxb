@@ -1,0 +1,10 @@
+train (t-1124cib2c8080iv53mjnj4aac) {
+  utterance ("[g:ItemInfo] (서울)[v:LocaName:서울]의 (감자)[v:ItemName] (가격)[v:SearchKeyword:검색]은 얼마야")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572482939170)
+}
+train (t-1f25ovpvmypue6xrj6u411rph) {
+  utterance ("[g:ItemInfo] (우리 동네)[v:NearBy:주변] (호박)[v:ItemName]을 (조회)[v:SearchKeyword:검색]해줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAck6Vfol5qb6pSYW4dAOkmYQx5AC6XCqZJDDkAgGSiRneKdWlucXpTCwMDAyMDEwA2kGIAsCYQAkBpUDAA==)
+  last-modified (1572482958953)
+}

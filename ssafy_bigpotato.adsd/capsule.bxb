@@ -1,0 +1,28 @@
+capsule {
+  id (agriculture.adsd)
+  version (0.1.5)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US){enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+  //geo 라이브러리 추가
+   capsule-imports {
+    import (viv.geo) { as (geo)   version (9.20.3) }
+  }
+store-sections{
+section (Shopping)
+section (Local)
+}
+  permissions {
+    user-profile-access
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
+  }
+}

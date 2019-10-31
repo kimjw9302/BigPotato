@@ -1,0 +1,10 @@
+train (t-g72zv7lhmsg0a1g8iw6336o95) {
+  utterance ("[g:ItemInfo] (배추)[v:ItemName] (찾아)[v:SearchKeyword:검색]줘 (대전)[v:LocaName:대전]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572080634165)
+}
+train (t-ggy13kxvgjznx5w61xfjskdg8) {
+  utterance ("[g:Example] (사용법 띄워)[v:Example]서 보여줘")
+  plan (Y2BikEhML8pMLs0pKS1K1UtMKU7Rc61IzC3IScUjwwiEDAw8QMwExEA2AA==)
+  last-modified (1572437781249)
+}

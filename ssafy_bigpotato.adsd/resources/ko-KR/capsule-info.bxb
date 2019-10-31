@@ -1,0 +1,17 @@
+capsule-info {
+  display-name (알뜰살뜰)
+  developer-name (SSAFY_왕감자)
+  icon-asset ("images/bixby_logo.png")
+  description ("한국농수산식품유통공사에서 제공하는 API를 활용하여 유통되는 농수산물의 최근 30일 간의 데이터를 비교하여 현재 가격, 최근 동향, 평균 가격, 최고가 및 최저가를 사용자에게 보여줘 알뜰살뜰한 소비 생활을 도와주는 캡슐입니다.")
+  privacy-policy-url (https://kimjw9302.github.io/privacy/2019/10/30/adsdprivacy.html)
+   search-keywords {
+    keyword (알뜰살뜰)
+    keyword (농수산물)
+    keyword (알뜰)
+    keyword (살뜰)
+  }
+  dispatch-name (알뜰살뜰)
+  
+  action-bg-color (#7DCB77)
+  action-fg-color (#FFFFFF)
+}

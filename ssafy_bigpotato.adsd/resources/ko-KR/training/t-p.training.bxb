@@ -1,0 +1,15 @@
+train (t-pac4r6qzm1tgv9m2ozq3j42du) {
+  utterance ("[g:ItemInfo] (세종)[v:LocaName:세종]의 (감자)[v:ItemName] (가격)[v:SearchKeyword:검색] 알려줘")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMOQck8tAck6Vfol5qb65CcnlmTm5+EwAqQEixRIF1hKDkMqODWxKDnDO7WyPL8ohYGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572078335403)
+}
+train (t-pbvtiaawpdkbag5l0nacgyd0j) {
+  utterance ("[g:ItemInfo] (배추)[v:ItemName] (가격)[v:SearchKeyword:검색] (화장실)[v:NoLocation]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAcn65fvkJyeWZObn4dDul5ibyiCNIYWkTw5DMjg1sSg5wzu1sjy/KIWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572438020949)
+}
+train (t-ptq9ddrar2cui2we8sn0npjr7) {
+  utterance ("[g:ItemInfo] (감자)[v:ItemName] (가격)[v:SearchKeyword:검색] 알려줘 (바보)[v:NoLocation]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAcn65fvkJyeWZObn4dDul5ibyiCNIYWkTw5DMjg1sSg5wzu1sjy/KIWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572424537047)
+}

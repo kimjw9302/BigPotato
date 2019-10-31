@@ -1,0 +1,5 @@
+train (t-223lkpkvkvf0s1qz5gweoseil) {
+  utterance ("[g:ItemInfo] (배추)[v:ItemName]를 (찾아)[v:SearchKeyword:검색]줘 (주변)[v:NearBy:주변]에서")
+  plan (Y2BlkExML8pMLs0pKS1K1UtMKU7R8yxJzfXMS8tnUMKQck8tAck6Vfol5qb6pSYW4dAOkmYQx5AC6XCqZJDDkAgGSiRneKdWlucXpTCwMDAyMDEwA2kGIAsCYQAkBpUDAA==)
+  last-modified (1572483014290)
+}

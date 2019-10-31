@@ -1,0 +1,69 @@
+structure (ItemInfo) {
+	//[이름,가격,날짜,시군구,imgUrl]
+	description (농산물 정보가 담기는 Output Concept)
+	property (itemCode) {
+		type (ItemCode)
+		min (Optional) max (One)
+	}
+	property (itemName) {
+		type (ItemName)
+		min (Optional) max (One)
+	}
+	property (kindCode) {
+		type (KindCode)
+		min (Optional) max (One)
+	}
+	property (kindName) {
+		type (KindName)
+		min (Optional) max (One)
+	}
+  property(locaName){
+    type (LocaName)
+		min (Optional) max (One)
+  }
+	property (maxP){
+		type (MaxP)
+		min (Optional) max (One)
+	}
+	property (minP){
+		type (MinP)
+		min (Optional) max (One)
+	}
+	property (medP){
+		type (MedP)
+		min (Optional) max (One)
+	}
+	property (recentP){
+		type (RecentP)
+		min (Optional) max (One)
+	}
+	property (msg){
+		type (Msg)
+		min (Optional) max (One)
+	}
+  property(chartURL){
+    type (ChartURL)
+		min (Optional) max (One)
+  }
+  property (imageURL){
+		type (ImageURL)
+			min(Optional) max(One)
+		
+	}
+	property (todate){
+		type (Todate)
+			min(Optional) max(One)		
+	}
+	property (itemgroupcode){
+		type(ItemGroupCode)
+		min (Optional) max(One)
+	}
+		property (fullName){
+		type(FullName)
+		min (Optional) max(One)
+	}
+		property (unit){
+		type(Unit)
+		min (Optional) max(One)
+	}
+}
